@@ -1,0 +1,17 @@
+.navigation{
+    padding:20px 0px;
+}
+.navigation li{
+    list-style-type: none;
+    text-align: center;
+}
+.navLink{
+    padding:10px;
+    text-decoration:none;
+    display:block;
+    color:#eee;
+}
+.navLink:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+    color:white;
+}

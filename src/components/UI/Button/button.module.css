@@ -1,0 +1,25 @@
+.formButton{
+    flex-basis:100%;
+    text-align: center;
+}
+.formButton button{
+    position: relative;
+    margin-top:10px;
+    padding:10px 0px;
+    width:6rem;
+    border-radius:2px;
+    background-color:#333;
+    color:#eee;
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+.loading button:after{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    content: "";
+    background-color: rgba(252, 249, 249, 0.404);
+}

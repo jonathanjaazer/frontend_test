@@ -1,0 +1,12 @@
+.form{
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.formHeader{
+    text-align: center;
+    flex-basis: 100%;
+    border-bottom:1px solid #eee;
+}

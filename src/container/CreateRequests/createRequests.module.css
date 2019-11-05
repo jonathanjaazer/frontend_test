@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.header{
+    padding:1rem 0px;
+    flex-basis: 100%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.content{
+    flex-basis: 100%;
+}
+span{
+    color:#333;
+}
+@media(max-width:600px){
+    span{
+        display:none;
+    }
+}
