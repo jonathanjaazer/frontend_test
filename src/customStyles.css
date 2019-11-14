@@ -1,0 +1,42 @@
+body{
+	background-color: #dcdbdb;
+}
+/*backgroundColors*/
+.bgColorGrey{
+  background-color: #dcdbdb;
+}
+/*paddings*/
+.paddingLeft300{
+     padding-left: 300px;
+}
+.formPadding{
+	padding:3rem;
+}
+
+/*used in form buttons*/
+.buttonWidth{
+	width:8rem;
+}
+/*for animation of panel*/
+.example-appear {
+  opacity: 0.01;
+}
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+.fullHeight{
+  height: 500px;
+  overflow: auto;
+}
+@media only screen and (max-width : 992px) {
+    .paddingLeft300{
+        padding: 20px;
+    }
+}
+
+/*tabs*/
+.tabColor a{
+  color:black;
+}
+
